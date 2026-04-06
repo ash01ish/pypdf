@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744203008011,
-  "repoUrl": "https://github.com/py-pdf/pypdf",
+  "lastUpdate": 1775519437052,
+  "repoUrl": "https://github.com/ash01ish/pypdf",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
       {
@@ -73859,6 +73859,74 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.003311238941970189",
             "extra": "mean: 747.1543755999846 msec\nrounds: 5"
+          }
+        ]
+      }
+    ],
+    "CPython Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "email": "96178532+stefan6419846@users.noreply.github.com",
+            "name": "Stefan",
+            "username": "stefan6419846"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3f501b0ce2796388547b451bd6c45103aaf85c0",
+          "message": "DEV: Update pygments version to 2.20.0 (#3707)",
+          "timestamp": "2026-03-31T07:23:44+02:00",
+          "tree_id": "07bb0c573d595860f72f31ba7e1068c6f6392800",
+          "url": "https://github.com/ash01ish/pypdf/commit/f3f501b0ce2796388547b451bd6c45103aaf85c0"
+        },
+        "date": 1775519433123,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/bench.py::test_page_operations",
+            "value": 3.055869206235945,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00499703762198708",
+            "extra": "mean: 327.23913639999864 msec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_merge",
+            "value": 16.738237163581537,
+            "unit": "iter/sec",
+            "range": "stddev: 0.042333073299941314",
+            "extra": "mean: 59.7434479047629 msec\nrounds: 21"
+          },
+          {
+            "name": "tests/bench.py::test_text_extraction",
+            "value": 0.2795980027620588,
+            "unit": "iter/sec",
+            "range": "stddev: 0.028171528230191627",
+            "extra": "mean: 3.5765634594000004 sec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_read_string_from_stream_performance",
+            "value": 17.99429935198181,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006134705263587899",
+            "extra": "mean: 55.57315572222402 msec\nrounds: 18"
+          },
+          {
+            "name": "tests/bench.py::test_image_new_property_performance",
+            "value": 0.09161822661413016,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015608590790482891",
+            "extra": "mean: 10.914858723599997 sec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_large_compressed_image_performance",
+            "value": 1.4570411377623307,
+            "unit": "iter/sec",
+            "range": "stddev: 0.029161039126874275",
+            "extra": "mean: 686.3224201999969 msec\nrounds: 5"
           }
         ]
       }
