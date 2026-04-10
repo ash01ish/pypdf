@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775712882048,
+  "lastUpdate": 1775787393863,
   "repoUrl": "https://github.com/ash01ish/pypdf",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -73993,6 +73993,72 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0007085507358608766",
             "extra": "mean: 649.6007656000074 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "3155e04624fd0f3485d7ea97f2cbe4dc45ee7740",
+          "message": "Bump cryptography from 46.0.6 to 46.0.7 in /requirements (#3723)\n\nBumps [cryptography](https://github.com/pyca/cryptography) from 46.0.6 to 46.0.7.\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/46.0.6...46.0.7)\n\n---\nupdated-dependencies:\n- dependency-name: cryptography\n  dependency-version: 46.0.7\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-04-09T08:52:59+02:00",
+          "tree_id": "eacb6960ae8f3d67cc3aa42e03e2cd46f8d841fd",
+          "url": "https://github.com/ash01ish/pypdf/commit/3155e04624fd0f3485d7ea97f2cbe4dc45ee7740"
+        },
+        "date": 1775787390501,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/bench.py::test_page_operations",
+            "value": 3.0600810405545626,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0029009280726104802",
+            "extra": "mean: 326.7887310000049 msec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_merge",
+            "value": 19.648805850406138,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0024437633040321712",
+            "extra": "mean: 50.893678100001694 msec\nrounds: 20"
+          },
+          {
+            "name": "tests/bench.py::test_text_extraction",
+            "value": 0.2842014502784551,
+            "unit": "iter/sec",
+            "range": "stddev: 0.016279685266004568",
+            "extra": "mean: 3.5186308831999953 sec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_read_string_from_stream_performance",
+            "value": 18.081578585777756,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005596822816649106",
+            "extra": "mean: 55.30490577778203 msec\nrounds: 18"
+          },
+          {
+            "name": "tests/bench.py::test_image_new_property_performance",
+            "value": 0.09064273362381231,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03662541199412569",
+            "extra": "mean: 11.032323938400008 sec\nrounds: 5"
+          },
+          {
+            "name": "tests/bench.py::test_large_compressed_image_performance",
+            "value": 1.499376437977524,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0352618314050147",
+            "extra": "mean: 666.943920600005 msec\nrounds: 5"
           }
         ]
       }
